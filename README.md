@@ -62,4 +62,4 @@ If you find our work useful in your research, please consider citing:
 This code is based on the previous works ([All-Conv-Keras](https://github.com/MateLabs/All-Conv-Keras)，[panotti](https://github.com/drscotthawley/panotti)). Many thanks to the authors.
 
 ### License
-Our code is released under MIT License.
+Our code is released under Apache License 2.0.
