@@ -1,6 +1,6 @@
 ## The Helmholtz Method: *Using Perceptual Compression to Reduce Machine Learning Complexity*
 
-Created by [Gerald Friedland](http://www.gerald-friedland.org), Jingkang Wang, [Ruoxi Jia](https://ruoxijia.github.io/), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/).
+Created by [Gerald Friedland](http://www.gerald-friedland.org), [Jingkang Wang](http://wangjk.me), [Ruoxi Jia](https://ruoxijia.github.io/), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/).
 
 ![Helmholtz Reinterpretation](https://raw.githubusercontent.com/helmholtz-perception/Helmholtz-DL/master/docs/Helmholtz.png?token=AVJKPwd6oKZC6TGHb1WjxEP2SmhXv4nbks5a2E9NwA%3D%3D)
 
