@@ -5,12 +5,13 @@ Created by [Gerald Friedland](http://www.gerald-friedland.org), [Jingkang Wang](
 ![Helmholtz Reinterpretation](https://github.com/helmholtz-perception/Helmholtz-DL/blob/master/docs/Helmholtz.png)
 
 ### Introduction
-This work is based on our [arXiv tech report](https://arxiv.org/abs/). We proposed a fundamental answer to a frequently asked question in multimedia computing and machine learning: Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much? You can also check our [project webpage](http://helmholtz-perception.github.io/Helmholtz-DL/) for a deeper introduction.
+This work is based on our [arXiv tech report](https://arxiv.org/abs/). We propose a fundamental answer to a frequently asked question in multimedia computing and machine learning: Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much? You can also check our [project webpage](http://helmholtz-perception.github.io/Helmholtz-DL/) for a deeper introduction.
 
+Just like electricity doesn't originate from the power outlet, pixels don't randomly appear in an image file. Cameras are physical sensors that follow the laws of thermodynamics. Knowing this makes it easier to understand the properties of pixels as we train machine learners to recognize patterns in images.
 
 Our approach to the problem is a reinterpretation of the Helmholtz Free Energy formula from physics to explain the relationship between content and noise when using sensors (such as cameras or microphones) to capture multimedia data. Extensive experiments show that, at the right quality level, perceptual compression is actually not harmful but contributes to a significant reduction of complexity of the machine learning process. Our work provides insights into the reasons for the success of deep learning.
 
-In this repository, we release code and data for conducting perceptual compression while maintaining, or sometimes even improving, overall performance. Additionally, compressed models usually result in faster convergent speed. 
+In this repository, we release code and data for conducting perceptual compression while maintaining, or sometimes even improving, overall performance. Additionally, compressed models usually result in faster training convergent.
 
 ### Requirements
 
@@ -45,7 +46,7 @@ sh scripts/train-all-cnns.sh
 
 More details are provided in our [project webpage](http://helmholtz-perception.github.io/Helmholtz-DL/).
 ### Architectures
-To evaluate our idea, we have designed six different architectures on CIFAR-10 and Audio dataset, respectively. The details of models (architectures, number of parameters) could be obtained from [cifar_paras](https://github.com/helmholtz-perception/Helmholtz-DL/tree/master/cifar/parameters) and [audio_paras](https://github.com/helmholtz-perception/Helmholtz-DL/tree/master/audio/model/parameters). 
+To evaluate our idea, we have designed six different architectures on CIFAR-10 and Audio dataset, respectively. The details of models (architectures, number of parameters) could be obtained from [cifar_paras](https://github.com/helmholtz-perception/Helmholtz-DL/tree/master/cifar/parameters) and [audio_paras](https://github.com/helmholtz-perception/Helmholtz-DL/tree/master/audio/model/parameters).
 
 ### Citation
 If you find our work useful in your research, please consider citing:
@@ -56,7 +57,7 @@ If you find our work useful in your research, please consider citing:
 	  journal={arXiv preprint arXiv:1804.xxxxx},
 	  year={2018}
 	}
-   
+
 ### Acknowledgements
 This code is based on the previous works ([All-Conv-Keras](https://github.com/MateLabs/All-Conv-Keras)，[panotti](https://github.com/drscotthawley/panotti)). Many thanks to the authors.
 
