@@ -1,0 +1,8 @@
+*.h5
+*.hdf5
+*.pyc
+cifar/data/quality*
+cifar/data/cifar*
+audio/data/Samples
+audio/data/bitrate*
+audio/data/Preproc*
